@@ -1,0 +1,23 @@
+<div class="row">
+    <div class="container">
+
+        <div class="logo">
+            <img src="../../../assets/img/APLogo.png" id="logoAP">
+        </div>
+
+        <div class="redes">
+            <div>
+                <a href="https://www.linkedin.com/in/jos%C3%A9-mar%C3%ADa-amaya-a13a82226/"><img src="../../../assets/img/linkedin.png" id="linkedin"></a>
+                <a href=""><img src="../../../assets/img/twitter.png" id="twitter"></a>
+                <a href=""><img src="../../../assets/img/instagram.png" id="instagram"></a>
+                <a href="https://github.com/"><img src="../../../assets/img/github.png" id="github"></a>
+                <a href="https://web.facebook.com/jose.amaya.3726"><img src="../../../assets/img/facebook.png" id="facebook"></a>
+                <button type="button" class="btn btn-outline-light" (click)="login()" *ngIf="!isLogged">Ingresar</button>
+                <button type="button" class="btn btn-outline-light" (click)="onlogout()"*ngIf="isLogged">CERRAR SESION</button>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
